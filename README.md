@@ -61,3 +61,8 @@ Then uncomment in **terraform.tfvars** file corresponding line and fill with the
 |group_prefix|A prefix can be set at the beginning of each group created|'string'|""|no|
 |managers|Optional parameters to set a manager of groups|'list'|n/a|no|
 |members|Optional parameters to set members of created groups|'list'|n/a|no|
+
+
+
+
+Note : Issue when destroying the tf applied : refers to : https://github.com/hashicorp/terraform-provider-google/issues/7616#issuecomment-742779169
