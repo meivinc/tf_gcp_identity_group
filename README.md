@@ -57,8 +57,7 @@ Then uncomment in **terraform.tfvars** file corresponding line and fill with the
 |project_id|Project containing Cloud Identity API Billing|'string'|my-project|yes|
 |domain|Domain used in your organization|'string'|mydomain.fr|yes|
 |owners|Owner of the groups which will be created|'list'|terraform-sa@domain.fr|yes|
-|group_id|List of groups which will be created|'list'|<pre>[<br>"grp-gcp-org",<br> "grp-gcp-billing",<br> "grp-gcp-logging"<br>]</pre>
-|yes|
+|group_id|List of groups which will be created|'list'|<pre>[<br>"grp-gcp-org",<br> "grp-gcp-billing",<br> "grp-gcp-logging"<br>]</pre>|yes|
 |group_prefix|A prefix can be set at the beginning of each group created|'string'|""|no|
 |managers|Optional parameters to set a manager of groups|'list'|n/a|no|
 |members|Optional parameters to set members of created groups|'list'|n/a|no|
